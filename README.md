@@ -16,21 +16,40 @@ bun dev
 
 Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+🚀 Features
 
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
+🔐 Authentication — Secure user login and signup using Better Auth
 
-## Learn More
+🗒️ Create & Manage Posts — Users can add, edit, and delete blog posts
 
-To learn more about Next.js, take a look at the following resources:
+🧭 Dynamic Routing — Individual post pages with clean URLs
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+🗃️ Database Layer — Type-safe ORM with Drizzle + PostgreSQL
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
+🎨 Modern UI — Built using Tailwind CSS and Shadcn UI components
 
-## Deploy on Vercel
+⚡ Next.js App Router — Optimized performance with server components
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
 
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+🏁 Getting Started
+
+Clone the repo
+
+git clone https://github.com/yourusername/blog-app.git
+cd blog-app
+
+
+Install dependencies
+
+npm install
+
+
+Set up environment variables
+
+DATABASE_URL=your_postgres_url
+BETTER_AUTH_SECRET=your_secret
+
+
+Run the app
+
+npm run dev
